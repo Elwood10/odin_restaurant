@@ -1,0 +1,80 @@
+body {
+    background-image: url('Create_a_visually_captivating_image_suitable_for_a\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-position: center; /* Center the background image */
+    height: 100vh; /* Full height */
+    display: grid;    
+    grid-template-columns: 2fr 6fr 2fr; 
+    grid-template-rows: 1fr 1fr 6fr 2fr;
+    
+}
+.header {
+    margin-left: 25%;
+grid-column-start: 2;
+}
+
+button{
+    font-size: xx-large;
+    border-radius: 10px;
+    position: center;
+    background-color:papayawhip;
+    
+}
+.homeTitle{
+    font-size: 400%;
+    color:black;
+    margin-left: 5%; 
+}
+#content{
+    grid-row-start: 3;
+    grid-column-start: 2;
+    
+
+}
+.menuContent{
+    background-color: white;
+    color: black;
+    height:100%;
+    width: 100%;
+    grid-row-start: 3;
+    grid-column-start: 2;
+    margin: 0;
+    border-radius: 5%;
+    border: solid black 3px;
+}
+
+.contact{
+    background-color: white;
+    color: green;
+    height:25%;
+    width: 100%;
+    grid-row-start: 3;
+    grid-column-start: 2;
+    margin: 0;
+    border-radius: 9px;
+    border: solid black 3px;
+}
+
+.menuWords{
+    font-size:x-large;
+    font-style: italic;
+    
+    
+}
+
+.menuItems{
+    font-size: x-large;
+
+}
+.kidsTitle{
+    font-size: xx-large;
+}
+.kidsItems{
+    font-size:x-large;
+
+}
+
+.contactText{
+    font-style:italic;
+    color:black;
+}
